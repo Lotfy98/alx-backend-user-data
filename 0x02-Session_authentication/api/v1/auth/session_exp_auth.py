@@ -5,7 +5,7 @@ import os
 from flask import request
 from datetime import datetime, timedelta
 
-from ..views.session_auth import SessionAuth
+from .session_auth import SessionAuth
 
 
 class SessionExpAuth(SessionAuth):
