@@ -4,7 +4,7 @@
 from uuid import uuid4
 from flask import request
 
-from .auth import Auth
+from ..auth.auth import Auth
 from models.user import User
 
 
