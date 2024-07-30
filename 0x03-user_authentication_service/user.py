@@ -1,4 +1,4 @@
-# user.py
+#!/usr/bin/env python3
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
